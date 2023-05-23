@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ListeArticle">
+
+    <ListView
+        android:id="@+id/listViewArticles"
+        android:layout_width="match_parent"
+        android:layout_height="1600px" />
+
+    <ImageButton
+        android:id="@+id/retour"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        android:layout_marginLeft="800px"
+        android:background="@drawable/btn_return"
+        android:backgroundTint="@color/black"/>
+
+</LinearLayout>

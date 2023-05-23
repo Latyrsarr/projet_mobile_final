@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EFEDED">
+    <TextView
+        android:id="@+id/ajout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SimpleBlog"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#000000"
+        android:textSize="135px"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ajout_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160px"
+        android:layout_marginTop="130px"
+        android:text="Ajouter un article"
+        android:textColor="#000000"
+        android:textSize="80px"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/editTextTitre"
+        android:layout_width="900px"
+        android:layout_height="150px"
+
+        android:layout_marginStart="50px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/edit_text_background"
+        android:hint="Titre"
+        android:textColorHint="#EFEDED"
+        android:textSize="90px"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextContenu"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:background="@drawable/edit_text_background"
+        android:gravity="top|center"
+        android:hint="Contenu"
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:textColorHint="#EFEDED"
+        android:textSize="90px"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAjouter"
+
+        android:layout_width="900px"
+        android:layout_height="150px"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:background="@drawable/edit_text_background"
+        android:backgroundTint="@color/black"
+        android:text="Ajouter"
+        android:textColor="#FFFFFF"
+        android:textSize="80px"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/retourner"
+
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_marginLeft="800px"
+        android:layout_marginTop="50px"
+        android:background="@drawable/btn_return"
+        android:backgroundTint="@color/black"
+        android:text="x"
+        android:textColor="#FFFFFF"
+        android:textSize="50px"
+        android:textStyle="normal|bold" />
+
+
+
+</LinearLayout>

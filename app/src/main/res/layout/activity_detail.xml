@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/textViewTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="550px"
+        android:layout_height="wrap_content"
+        android:text="Ecrit par Alassane Latyr Sarr"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="590px"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewContenu"
+        android:layout_width="match_parent"
+        android:layout_height="1100px"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/retour"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:background="@drawable/btn_return"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="800px"/>
+
+</LinearLayout>
