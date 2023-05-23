@@ -1,2 +1,7 @@
 # projet_mobile_final
-Alassane Latyr Sarr et Mame Ibrahima gassama
+
+Membre du projet
+
+Alassane Latyr Sarr 
+
+Mame Ibrahima gassama
